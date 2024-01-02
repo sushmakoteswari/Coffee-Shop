@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caffeine Bar</title>
+  <link rel="icon" href="icon.png" type="image/x-icon">
+
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #bf8969;
+    }
+
+    header {
+      background-color: #dfbb96;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 2em;
+      color: #3d281c;
+      font-family: 'Roboto', sans-serif;
+      position: relative;
+    }
+
+    header h1 {
+      margin-bottom: 0.5em;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .left-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .right-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+   
+
+    main {
+      text-align: center;
+      padding: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .coffee-card {
+      width: 250px; /* Set a fixed width for the card */
+      border: 1px solid #f4ece6;
+      border-radius: 8px;
+      margin: 1em;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #f4ece6;
+    }
+
+    .coffee-card img {
+      width: 100%;
+      height: 350px; /* Set a fixed height for the image */
+      border-radius: 8px 8px 0 0;
+    }
+
+    .coffee-details {
+      padding: 1em;
+      margin: 0.5em;
+      background-color: white;
+      border-radius: 20px;
+    }
+
+    .coffee-details p {
+      line-height: 1.6;
+      text-align: end;
+    }
+
+    .coffee-details h3 {
+      margin-top: 0;
+      font-size: 1.4em;
+    }
+
+    footer {
+      background-color: #3d281c;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 1em;
+    }
+
+    @media (max-width: 800px) {
+      .coffee-card {
+        width: 100%; /* Set full width for smaller screens */
+      }
+
+      header {
+    padding: 1em; /* Adjust padding for smaller screens */
+  }
+
+  header h1 {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  header p {
+    font-size: 0.8em; /* Adjust font size for smaller screens */
+  }
+
+  header img {
+    display: none; /* Hide images for smaller screens */
+  }
+    }
+
+    
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 style="font-family: Georgia, serif;">Welcome to <strong style="font-family: 'Brush Script MT', cursive;">Caffeine</strong> Bar</h1>
+    <p style=" font-family: 'Courier New', monospace;">Discover the Finest Coffee Experience</p>
+    <img class="left-image"   src="/icon.png" alt="Coffee Icon 1">
+    <img class="right-image" src="/icon2.png" alt="Right Coffee Image">
+
+
+  </header>
+
+  <main>
+    <div class="coffee-card">
+      <img src="/c1.jpg" alt="Cold Brew Coffee">
+      <div class="coffee-details">
+        <h3>Cold Brew Coffee</h3>
+        <p>Smooth and refreshing, our cold brew coffee is meticulously crafted to deliver 
+            a bold and rich flavor experience with a hint of natural sweetness, served over
+             ice for the perfect chill</p>
+        <p>Cost: Rs.299</p>
+      </div>
+    </div>
+    <div class="coffee-card">
+        <img src="/c2.jpg" alt="Cappuccino">
+        <div class="coffee-details">
+            <h3>Cappuccino</h3>
+            <p>Indulge in the velvety delight of our cappuccino, a harmonious blend of rich espresso, steamed milk, and a delicate layer of frothy foam.</p>
+        
+          <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c3.jpg" alt="Creamy Cashew Ginger Latte">
+        <div class="coffee-details">
+            <h3>Creamy Cashew Ginger Latte</h3>
+            <p>Indulge in the exotic blend of our Creamy Cashew Ginger Latte, where the rich creaminess of cashew milk meets the invigorating warmth of ginger, creating a unique and satisfying flavor profile.</p>
+         <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c4.jpg" alt="Iced Mocha">
+        <div class="coffee-details">
+            <h3>Iced Mocha</h3>
+            <p>Cool down with our refreshing Iced Mocha, a delightful combination of bold espresso, creamy milk, and a touch of chocolate, served over ice for a perfect balance of rich and cool flavors.</p>
+             <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/r2.jpg" alt="Chai Latte">
+        <div class="coffee-details">
+            <h3>Chai Latte</h3>
+            <p>Experience the comforting warmth of our Chai Latte, crafted with aromatic chai spices and smooth steamed milk, providing a cozy and flavorful beverage to savor.</p>
+            <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c6.jpg" alt="Exotic Coffee Beans">
+        <div class="coffee-details">
+            <h3>Exotic Coffee Beans</h3>
+            <p>Embark on a journey of taste with our Exotic Coffee Beans, sourced from unique and distant regions, delivering a rich and diverse flavor profile that elevates your coffee experience to new heights.</p>
+             <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c7.jpg" alt="Irish Coffee Milkshake">
+        <div class="coffee-details">
+            <h3>Irish Coffee Milkshake</h3>
+            <p>Indulge in the delightful fusion of Irish coffee and creamy milkshake, combining the bold kick of espresso with the smoothness of ice cream, creating a luscious and satisfying treat for your taste buds.</p>
+              <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c8.jpg" alt="Iced Coffee">
+        <div class="coffee-details">
+            <h3>Iced Coffee</h3>
+            <p>Cool off with our refreshing Iced Coffee, a chilled and invigorating blend of premium coffee over ice, providing the perfect pick-me-up for a hot day or any time you crave a crisp and satisfying coffee experience.</p>
+            <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/c10.jpg" alt="Araku Coffee Beans">
+        <div class="coffee-details">
+            <h3>Araku Coffee Beans</h3>
+            <p>Indulge in the unique and rich flavors of Araku Coffee Beans, carefully cultivated in the picturesque hills of Araku Valley. With distinct notes and a smooth profile, our Araku beans offer a delightful and exquisite coffee experience.</p>
+            <p>Cost: Rs.299</p>
+        </div>
+      </div>
+      <div class="coffee-card">
+        <img src="/r1.jpg" alt="Coffee Chocolate">
+        <div class="coffee-details">
+            <h3>Coffee Chocolate</h3>
+            <p>Experience the perfect blend of rich coffee and decadent chocolate in our Coffee Chocolate treat. Each bite is a delightful harmony of bold coffee flavors and the sweetness of premium chocolate, creating a heavenly indulgence for your senses.</p>
+            <p>Cost: Rs.299</p>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Coffee Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
